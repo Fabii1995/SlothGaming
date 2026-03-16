@@ -39,7 +39,7 @@ The project follows **Modern Android Development (MAD)** principles using the XM
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Fabii1995/SlothGaming.git](https://github.com/Fabii1995/SlothGaming.git)
+   git clone https://github.com/Fabii1995/SlothGaming.git
 2. Open the project in Android Studio.
 
 3. Connect your Firebase project and add the google-services.json file to the app/ directory.
