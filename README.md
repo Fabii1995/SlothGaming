@@ -17,7 +17,7 @@
 
 ## 🛠 Tech Stack
 * **Language:** [Kotlin](https://kotlinlang.org/)
-* **UI Framework:** Xml view's
+* **UI Framework:** Xml view's and view binding
 * **Architecture:** MVVM (Model-View-ViewModel) for clean separation of concerns
 * **Local Database:** Room for robust local persistence
 * **Networking:** Retrofit & OkHttp for API communication with the IGDB database
@@ -28,17 +28,11 @@
 ---
 
 ## 🏗 Architecture
-The project follows **Modern Android Development (MAD)** guidelines:
-1. **UI Layer:** Jetpack Compose with State Hoisting to ensure the UI is a direct reflection of the state.
-2. **Domain Layer:** ViewModels handle business logic and expose data via `StateFlow`.
-3. **Data Layer:** A Repository pattern manages data from two sources: the local Room database and the remote IGDB API.
-
----
-
-## 📸 Screenshots
-| Home Screen | Game Details | My Reviews |
-| :---: | :---: | :---: |
-| *Add Image Link Here* | *Add Image Link Here* | *Add Image Link Here* |
+The project follows **Modern Android Development (MAD)** principles using the XML-based View system:
+1. **UI Layer:** XML Layouts and Fragments/Activities that observe data changes from the ViewModel.
+2. **Domain Layer:** ViewModels handle business logic and expose data via `StateFlow` or `LiveData`.
+3. **Data Layer:** A Repository pattern manages data between the local Room database and the remote IGDB API.
+4. **Adapter Logic:** Custom Nested RecyclerViews with Parent/Child adapters for complex list layouts.
 
 ---
 
