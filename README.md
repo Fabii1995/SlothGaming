@@ -17,7 +17,7 @@
 
 ## 🛠 Tech Stack
 * **Language:** [Kotlin](https://kotlinlang.org/)
-* **UI Framework:** [Jetpack Compose](https://developer.android.com/jetpack/compose) (Modern, declarative UI)
+* **UI Framework:** Xml view's
 * **Architecture:** MVVM (Model-View-ViewModel) for clean separation of concerns
 * **Local Database:** Room for robust local persistence
 * **Networking:** Retrofit & OkHttp for API communication with the IGDB database
